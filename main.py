@@ -131,7 +131,7 @@ def main():
                 company.add_client(client)
     
             # Добавляем все транспортные средства в компанию
-            for vehicle in all_vehicle:
+            for vehicle in all_vehicles:
                 company.add_vehicle(vehicle)
             
             company.optimize_cargo_distribution()
